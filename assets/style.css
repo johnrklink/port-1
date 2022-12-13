@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main: rgba(184, 80, 66);
+    --secondary: rgba(231, 232, 209);
+    --tertiary: rgba(167, 190, 174);
+    --dark: rgba(90, 92, 91);
+    --light: rgba(230, 237, 234);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--tertiary);
+    
+
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 20px 10% 20px 0;
+    background-color: var(--main);
+    color: var(--secondary);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    box-shadow: 0 5px 40px var(--dark);
+}
+
+h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: var(--secondary);
+    background-color: var(--dark);
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav a {
+    color: var(--secondary);
+    background-color: var(--dark);
+    
+
+}
+
+.hero-banner {
+    background-color: var(--dark);
+    background-image: url(./images/slack\ profile.jpg);
+    padding: 30%;
+    background-size: cover;
+    background-position: 0%;
+    text-align:end;
+    vertical-align: bottom;
+    align-items: flex-end;
+      
+}
+
+.hero-banner h2 {
+    background-color:var(--secondary);
+    color:var(--dark);
+    display:inline;
+    margin:0%;
+   
+
+}
+.page-section {
+    flex-wrap: nowrap;
+    text-align: left;
+    float:right;
+}
+.page-section-contact {
+    flex-wrap: wrap;
+}
