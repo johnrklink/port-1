@@ -60,7 +60,7 @@ nav a {
 
 }
 
-.hero-banner {
+.banner {
     background-color: var(--dark);
     background-image: url(./images/slack\ profile.jpg);
     padding: 30%;
@@ -72,11 +72,11 @@ nav a {
       
 }
 
-.hero-banner div {
+.banner div {
    border: 15px;
 }
 
-.hero-banner h2 {
+.banner h2 {
     background-color:var(--secondary);
     color:var(--dark);
     display: flex;
