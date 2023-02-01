@@ -21,6 +21,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    display: flex;
     margin: 0;
 }
 
@@ -109,4 +110,39 @@ nav a {
 .page-section p {
     padding-left: 20%;
     padding-bottom: 15px;
+}
+
+.surf-report {
+    display:flex;
+    justify-content: flex-start;
+    image: url(./images/placeholder-200x200-300x300.png);
+    image-resolution: 200px 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-section {
+    display: flex;
+    flex: auto;
+    float: right;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container h3{
+    display: flex;
+    flex-grow: calc(1);
+}
+
+.page-section-contact {
+    display:inline-flex;
+    justify-content:end;
+   
+
 }
